@@ -92,8 +92,7 @@ p {
 
 }
 
-@media (max-device-width: 1024px)
-and (orientation: landscape)  {
+@media screen and (max-width: 1024px)  {
     /* For tablets: */
       body {
         background-color: #ccccff;

@@ -4,8 +4,7 @@ body {
   background-size: cover;
   background-color: #1A3A4D;
   font-family: 'Merienda', cursive;
-  color: white !important:
-
+  color: white !important;
 }
 
 .left {
@@ -58,7 +57,7 @@ li {
 a:link {
   color: white !important;
   font-family: 'Rock Salt', cursive;
-  font-size: 20px:
+  font-size: 20px;
 }
 
 a:visited {
@@ -67,7 +66,7 @@ a:visited {
 
 h1 h2 h3 h4 a p .right {
   color: white !important;
-  font-family: 'Rock Salt', cursive;
+  font-family: 'Rock Salt', cursive;}
 
 button {
   background-color: #4D4D4D; /* Gray*/
@@ -106,8 +105,7 @@ button {
 
 
 
-  @media (max-device-width: 1024px)
-  and (orientation: landscape)  {
+@media screen and (max-width: 1024px) {
       /* For tablets: */
         body {
           background-color: #ccccff;
