@@ -6,7 +6,6 @@ body {
   font-family: 'Merienda', cursive;
   width: 100%;
   color: white !important;
-
 }
 
 
@@ -25,7 +24,6 @@ nav {
   margin-left: 33%;
   width: 800px;
   height: 100px;
-
 }
 
 
@@ -37,14 +35,12 @@ li {
   list-style-type: none; /* Remove list bullets */
   box-sizing: border-box;
   margin-left: 15px;
-
 }
 
 h1 h2 h3 h4 a p .right {
   color: white !important;
-  font-family: 'Rock Salt', cursive;
+  font-family: 'Rock Salt', cursive !important;
 }
-
 
 a:link {
   color: white !important;
@@ -76,10 +72,10 @@ p {
         height: auto !important;
       }
 
-        .row {
-          column-count: 1 !important;
-          column-rule: none;
-          width: 300px;}
+      .row {
+        column-count: 1 !important;
+        column-rule: none;
+        width: 300px;}
 
 }
 
