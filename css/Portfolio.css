@@ -1,0 +1,101 @@
+body {
+  background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTtiy65CMJlZDvtCEACXV-i2bkMZSWnoaMMZCd75BR0AC1VzO25") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #1A3A4D;
+  font-family: 'Merienda', cursive;
+  width: 100%;
+  color: white !important;
+
+}
+
+
+
+nav {
+  margin-right: 20%;
+  margin-top: 0;
+  padding: 0;
+  width: 100px;
+  height: 100px;
+  color: white !important;
+}
+
+.right {
+  color: white !important;
+  margin-left: 33%;
+  width: 800px;
+  height: 100px;
+
+}
+
+
+li {
+  text-align: left;
+  font-family: 'Merienda', cursive;
+  font-size: 30px;
+  text-shadow: 0 0 2px #e1eef7, 0 0 2px #cbd5db;
+  list-style-type: none; /* Remove list bullets */
+  box-sizing: border-box;
+  margin-left: 15px;
+
+}
+
+h1 h2 h3 h4 a p .right {
+  color: white !important;
+  font-family: 'Rock Salt', cursive;
+}
+
+
+a:link {
+  color: white !important;
+  font-family: 'Rock Salt', cursive;
+  font-size: 10px:
+}
+
+a:visited {
+      color: white !important;
+}
+
+p {
+  font-family: 'Rock Salt', cursive;
+  font-size: 25px;
+}
+
+
+@media screen and (min-width: 768px)
+    (max-device-width: 768px)
+    and (orientation: portrait)
+    (device-width: 320px)
+    and (device-height: 568px) {
+  /* For mobile phones: */
+
+      body {
+        background-color: #33A8DD;
+        max-width: 100%;
+        width: 100%;
+        height: auto !important;
+      }
+
+        .row {
+          column-count: 1;
+          column-rule: none;
+          width: 300px;}
+
+}
+
+@media (max-device-width: 1024px)
+and (orientation: landscape)  {
+    /* For tablets: */
+      body {
+        background-color: #ccccff;
+        max-width: 100%;
+        width: 100%;
+        height: auto !important;}
+
+
+      .row {
+        column-count: 1;
+        column-rule: none;
+        width: 750px;}
+      }
+}
