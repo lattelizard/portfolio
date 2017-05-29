@@ -4,7 +4,7 @@ body {
   background-size: cover;
   background-color: #1A3A4D;
   font-family: 'Merienda', cursive;
-  color: white !important;
+  color: white;
 }
 
 .left {
@@ -64,10 +64,11 @@ a:visited {
 
 h1 h2 h3 h4 a p .right {
   color: white !important;
-  font-family: 'Rock Salt', cursive;}
+  font-family: 'Rock Salt', cursive;
+}
 
 button {
-  background-color: #4D4D4D; /* Gray*/
+  background-color: #4D4D4D; /* Blue Gray*/
   border: none;
   font-size: 18px;
   text-decoration: none;
@@ -76,7 +77,8 @@ button {
   width: 100px;
   padding: 2px 9px;
   text-decoration: none;
-  display: inline-block;}
+  display: inline-block;
+}
 
   @media screen and (max-device-width: 730px)
 
@@ -94,11 +96,12 @@ button {
 
     .box {
       flex-direction: column;
-      align-items, align-self
+
       column-count: 1 !important;
       column-rule: none;
-      width: 100%;
-      margin: 0 auto;
+
+      background-color: none;
+      
     }
 
     .row {
