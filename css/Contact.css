@@ -96,10 +96,9 @@ button {
 
     .box {
       color: white;
-      flex-direction: column;
-      column-count: 1 !important;
-      column-rule: none;
-      background-color: none;
+      column-count: 1;
+        column-rule: none;
+        width: 150;
     }
 
 
