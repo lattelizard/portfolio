@@ -15,8 +15,7 @@ nav {
   width: 100px;
   height: 100px;
   color: white !important;
-  display: inline;
-  float: left;
+
 }
 
 .right {
@@ -70,6 +69,11 @@ p {
         height: auto !important;
       }
 
+      nav {
+        display: inline;
+        float: left;
+      }
+
       .row {
         column-count: 1 !important;
         column-rule: none;
@@ -109,6 +113,8 @@ and (orientation: landscape)  {
           width: 100%;
           height: 100px;
           color: white !important;
+          display: inline;
+          float: left;
         }
 
 
