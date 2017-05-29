@@ -79,7 +79,7 @@ button {
   display: inline-block;}
 
   @media screen and (max-device-width: 730px)
-      
+
     {
     /* For mobile phones: */
 
@@ -88,6 +88,13 @@ button {
       max-width: 100%;
       width: 100%;
       height: auto !important;
+    }
+
+    .box {
+      flex-direction: column;
+      column-count: 1 !important;
+      column-rule: none;
+      width: 100%;}
     }
 
     .row {
@@ -112,6 +119,10 @@ button {
 
           .box {
             flex-direction: column;
+            column-count: 1 !important;
+            column-rule: none;
+            width: 100%;}
+
           }
 
         .row {
