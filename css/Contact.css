@@ -95,20 +95,14 @@ button {
     }
 
     .box {
+      color: white;
       flex-direction: column;
-
       column-count: 1 !important;
       column-rule: none;
-
       background-color: none;
-      
     }
 
-    .row {
-      column-count: 1 !important;
-      column-rule: none;
-      width: 100%;}
-    }
+
 
     .right {
       width: 100%;
