@@ -8,8 +8,6 @@ body {
   color: white !important;
 }
 
-
-
 nav {
   margin-right: 20%;
   margin-top: 0;
@@ -25,7 +23,6 @@ nav {
   width: 800px;
   height: 100px;
 }
-
 
 li {
   text-align: left;
@@ -58,8 +55,7 @@ p {
 }
 
 
-@media screen and (min-width: 768px)
-    (max-device-width: 768px)
+@media screen and (max-device-width: 768px)
     and (orientation: portrait)
     (device-width: 320px)
     and (device-height: 568px) {
@@ -77,6 +73,13 @@ p {
         column-rule: none;
         width: 300px;}
 
+      .right {
+          width: 100%;
+        }
+
+
+
+
 }
 
 @media (max-device-width: 1024px)
@@ -86,8 +89,12 @@ and (orientation: landscape)  {
         background-color: #ccccff;
         max-width: 100%;
         width: 100%;
-        height: auto !important;}
+        height: auto !important;
+        color: black;}
 
+      .right {
+        width: 100%;
+      }
 
         nav {
           margin-right: 20%;
@@ -104,5 +111,3 @@ and (orientation: landscape)  {
         column-rule: none;
         width: 750px;}
       }
-
-}
