@@ -96,7 +96,7 @@ button {
     .row {
       column-count: 1 !important;
       column-rule: none;
-      width: 300px;}
+      width: 100%;}
     }
 
     .right {
