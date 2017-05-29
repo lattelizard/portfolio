@@ -98,10 +98,8 @@ button {
       column-count: 1 !important;
       column-rule: none;
       width: 100%;
-
+      margin: 0 auto;
     }
-
-
 
     .row {
       column-count: 1 !important;
