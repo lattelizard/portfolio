@@ -94,14 +94,17 @@ button {
       height: auto !important;
     }
 
+    ul {
+      width: auto;
+      float: left;
+    }
+
     .box {
       color: white;
       column-count: 1;
         column-rule: none;
         width: 150;
     }
-
-
 
     .right {
       width: 100%;
@@ -127,7 +130,6 @@ button {
           column-count: 1 !important;
           column-rule: none;
           width: 100%;
-
         }
 
         .row {
