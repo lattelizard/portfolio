@@ -43,7 +43,7 @@ h1 h2 h3 h4 a p .right {
 a:link {
   color: white !important;
   font-family: 'Rock Salt', cursive;
-  font-size: 10px:
+  font-size: 10px;
 }
 
 a:visited {
@@ -58,8 +58,7 @@ p {
 
 @media screen and (max-device-width: 768px)
     and (orientation: portrait)
-    (device-width: 320px)
-    and (device-height: 568px) {
+   {
   /* For mobile phones: */
 
       body {
@@ -77,14 +76,14 @@ p {
       .row {
         column-count: 1 !important;
         column-rule: none;
-        width: 300px;}
+        width: 100%;}
 
       .right {
           width: 100%;
         }
 
         .col-md-6 {
-          width: 100%
+          width: 100%;
         }
 
 
