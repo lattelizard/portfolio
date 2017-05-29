@@ -10,9 +10,17 @@ body {
 
 .left {
   margin-right: 20%;
-  width: 150px;
+  margin-top: 0;
+  padding: 0;
+  width: 100px;
   height: 100px;
   color: white !important;
+  font-family: 'Merienda', cursive;
+  font-size: 20px;
+  text-shadow: 0 0 2px #e1eef7, 0 0 2px #cbd5db;
+  list-style-type: none; /* Remove list bullets */
+  box-sizing: border-box;
+  margin-left: 15px;
 }
 
 .right {
