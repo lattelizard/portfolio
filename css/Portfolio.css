@@ -63,6 +63,8 @@ p {
 
       body {
         background-color: #33A8DD;
+        background-image: linear-gradient(right);
+        background: linear-gradient(to right, #33A8DD , #bac5db); 
         max-width: 100%;
         width: 100%;
         height: auto !important;
