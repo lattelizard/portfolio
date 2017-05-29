@@ -28,7 +28,7 @@ nav {
 li {
   text-align: left;
   font-family: 'Merienda', cursive;
-  font-size: 20px;
+  font-size: 25px;
   text-shadow: 0 0 2px #e1eef7, 0 0 2px #cbd5db;
   list-style-type: none; /* Remove list bullets */
   box-sizing: border-box;
@@ -64,7 +64,7 @@ p {
       body {
         background-color: #33A8DD;
         background-image: linear-gradient(right);
-        background: linear-gradient(to right, #33A8DD , #bac5db); 
+        background: linear-gradient(to right, #33A8DD , #bac5db);
         max-width: 100%;
         width: 100%;
         height: auto !important;
