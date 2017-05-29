@@ -78,10 +78,9 @@ button {
   text-decoration: none;
   display: inline-block;}
 
-  @media screen and (max-device-width: 768px)
-      and (orientation: portrait)
-      (device-width: 320px)
-      and (device-height: 568px) {
+  @media screen and (max-device-width: 730px)
+      
+    {
     /* For mobile phones: */
 
     body {
