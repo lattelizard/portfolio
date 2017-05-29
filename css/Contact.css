@@ -92,10 +92,11 @@ button {
 
     .box {
       flex-direction: column;
+      align-items, align-self
       column-count: 1 !important;
       column-rule: none;
       width: 100%;
-      margin: 0 auto;
+
     }
 
 
@@ -120,29 +121,30 @@ button {
           width: 100%;
           height: auto !important;}
 
-          .box {
-            flex-direction: column;
-            column-count: 1 !important;
-            column-rule: none;
-            width: 100%;}
+        .box {
+          flex-direction: column;
+          align-items, align-self
+          column-count: 1 !important;
+          column-rule: none;
+          width: 100%;
 
-          }
+        }
 
         .row {
           column-count: 1;
           column-rule: none;
           width: 750px;}
-        }
+
 
         .left .office .contact .media .row {
-        width: 100%;
-        column-count: 1;
-        column-rule: none;
-        width: 750px;}
+          width: 100%;
+          column-count: 1;
+          column-rule: none;
+          width: 750px;}
 
         .right {
           width: 100%;
         }
 
     }
-  }
+  
